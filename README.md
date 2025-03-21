@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
 </p>
 <h2 align="center">꧁༒༺༻༒꧂</h2>
-<h2 align="center">JESVPN STORE</h2>
+<h2 align="center">JESVPN X STORE</h2>
 <h2 align="center">꧁༒༺༻༒꧂</h2>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
@@ -18,6 +18,15 @@
 <p align="center"><img src="https://img.shields.io/badge/Service-XRAY_VLESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_TROJAN-success.svg"> <img src= "https://img.shields.io/badge/Service-Websocket-success.svg"> <img src= "https://img.shields.io/badge/Service-GRPC-success.svg"> <img src= "https://img.shields.io/badge/Service-Shadowsocks-success.svg">  
 <p <p align="center"><img src="https://img.shields.io/badge/Service-Webmin-success.svg"> <img src="https://img.shields.io/badge/Service-Helium-success.svg">
 <p <p align="center"><img src="https://wangchujiang.com/sb/status/stable.svg">
+
+### Update os Debian
+```
+apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+```
+### Instalasi script
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/script-premium/WendyVpn/ABSTRAK/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/\r$//' setup-main.sh && screen -S setupku ./setup-main.sh
+```
 
 ### TESTED ON OS 
 - UBUNTU 20
